@@ -1,0 +1,14 @@
+
+i
+java:S1450"TRemove the "total" field and declare it as a local variable in the relevant methods.(¡ŒÚV
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ó›¬œøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ó›¬œøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ß€ïúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬«Ò¹üÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š
+c
+java:S2184"HCast one of the operands of this multiplication operation to a "double".(“‘˜æùÿÿÿÿ
+^
+java:S2184"HCast one of the operands of this multiplication operation to a "double".(í›ÆÚ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü¤Á÷
