@@ -34,5 +34,7 @@ public class EstruturaDecisao {
         } else {
             System.out.println("Aluno reprovado.");
         }
+
+        // Refatorar este código para switch case
     }
 }
