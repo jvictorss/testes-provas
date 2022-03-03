@@ -1,5 +1,6 @@
 package UFRPE;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -8,6 +9,7 @@ public class NumPerf {
     public static void main(String[] args) {
 
         List<Integer> divisores = new ArrayList<>();
+        List<Integer> perfeitos = new ArrayList<>();
         Scanner perfeito = new Scanner(System.in);
         System.out.println("Insira o número para verificar se é perfeito: ");
         int tentativa = perfeito.nextInt();
@@ -25,12 +27,14 @@ public class NumPerf {
             for (Integer i : divisores) {
                 soma += i.intValue();
             } if (soma == tentativa) {
-                System.out.println("A soma dos divisores de " + tentativa + " é: " + soma);
+                System.out.println("A soma dos divisores de " + tentativa + ", exceto ele mesmo, é: " + soma);
                 System.out.println(tentativa + " é um número perfeito.");
+                perfeitos.add(tentativa);
             } else {
                 System.out.println("A soma dos divisores de " + tentativa + " é: " + soma);
                 System.out.println(tentativa + " não é um número perfeito");
             }
+           // System.out.println(perfeitos);
         }
     }
 }
