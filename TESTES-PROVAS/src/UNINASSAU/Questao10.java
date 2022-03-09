@@ -10,5 +10,7 @@ public class Questao10 {
         }
         resultado = resultado + 4;
         System.out.println(resultado);
+
+        System.out.println((-5) * (-10) * (-20));
     }
 }

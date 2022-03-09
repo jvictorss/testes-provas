@@ -10,7 +10,6 @@ public class NumCompostoOuPrimo {
         int divisor;
         int numPrimo = 6;
 
-        //
         for (divisor = 1; divisor <= numPrimo; divisor ++) {
             if (numPrimo % divisor == 0) {
                 divisores.add(divisor);
@@ -23,5 +22,12 @@ public class NumCompostoOuPrimo {
         } else {
             System.out.println("O número " + numPrimo + " é COMPOSTO. Seus divisores são: " + divisores);
         }
+    }
+}
+
+class PrimeirosCem {
+    public static void main(String[] args) {
+        List<Integer> cemPrimos = new ArrayList<>();
+
     }
 }
